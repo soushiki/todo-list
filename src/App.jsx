@@ -6,7 +6,7 @@ function App() {
 
   const[todos, setTodos] = useState([ 
   ]);
-  const [todoValue, setTodoValue] = useState("o(-`д´- ｡)");
+  const [todoValue, setTodoValue] = useState("");
   
 
   function persistData(newList){
